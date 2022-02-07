@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.arif\.et$
+RewriteRule ^home1\/arif\/public_html$ "http\:\/\/arif\.et\/" [R=301,L]
+
